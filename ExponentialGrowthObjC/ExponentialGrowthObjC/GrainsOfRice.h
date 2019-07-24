@@ -9,6 +9,11 @@
 
 #import <Foundation/Foundation.h>
 
+
+
 @interface GrainsOfRice : NSObject
+
+- (long long)grainsOnSquareNumber:(NSNumber)number;
+- (long long)grainsOnBoard;
 
 @end
