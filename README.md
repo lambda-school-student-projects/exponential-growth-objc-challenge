@@ -15,6 +15,7 @@ Your challenge is to write an Objective-C program that calculates the number of 
 1. Implement the methods: `grainsOnSquareNumber:` and `grainsOnBoard` in the GrainsOfRice.m file
 2. Your methods should pass all the unit tests in the provided project
 3. Be mindful of the edges cases: 0 squares = 0 grains of rice, any negative number should return -1 as an error code.
+4. Return -1 if the value is greater than 64 (that will overflow our `unsigned long long` variable!)
 
 ## Tips
 
@@ -26,3 +27,9 @@ Your challenge is to write an Objective-C program that calculates the number of 
 
         NSLog(@"LONG_MAX:   %li",  LONG_MAX); // On a MacBook Pro 2018: LONG_MAX: 9223372036854775807
         NSLog(@"ULONG_LONG_MAX:   %llu",  ULONG_LONG_MAX);
+
+## Stretch
+
+1. Use [`NSDecimalNumber`](https://developer.apple.com/documentation/foundation/nsdecimalnumber) for even bigger numbers than `unsigned long long`. It can support up to 38 digit long numbers without losing precision.
+2. Imagine if there were 127 squares on a chess board. How many grains of rice would there be? 
+3. Can you calculate an exact number with `NSDecimalNumber` if there were 128 squares? Why? Why not?
