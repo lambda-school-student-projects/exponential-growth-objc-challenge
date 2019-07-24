@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "GrainsOfRice.h"
 
 @interface AppDelegate ()
 
@@ -19,7 +19,8 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
 	
-	
+	long long g = [[[GrainsOfRice alloc] init] grainsOnSquareNumber:5];
+	printf("%lli", g);
 	
 }
 

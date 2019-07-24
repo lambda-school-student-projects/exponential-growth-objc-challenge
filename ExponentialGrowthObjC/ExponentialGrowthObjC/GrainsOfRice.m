@@ -10,33 +10,25 @@
 
 @implementation GrainsOfRice
 
-- (instancetype)init
-{
-	self = [super init];
-	if (self) {
-		
-	}
-	return self;
-}
-
 
 - (long long)grainsOnSquareNumber:(long long)number {
 	long long riceNumber = 1;
-
+	
+	NSLog(@"%lli", number);
+	
 	if (number == 1)
 		return 1;
-	else {
-		for(int i = 2; number <= 1; i++) {
-			NSLog(@"%i", i);
-			riceNumber += riceNumber;
-		
-		}
+	
+	for(int i = 0; i <= number; i++) {
+		NSLog(@"%i", i);
+		riceNumber += riceNumber;
 	}
+	
 	return riceNumber;
 }
 
 - (long long)grainsOnBoard{
-	return [self.grainsOnSquareNumber 64];
+	return [self grainsOnSquareNumber: 64];
 }
 
 
