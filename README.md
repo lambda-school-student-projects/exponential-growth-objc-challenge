@@ -9,3 +9,20 @@
 *The king quickly realized that he was unable to fulfill his promise - on the sixty fourth square the king would have had to put more than 18,000,000,000,000,000,000 grains of rice which is equal to about 210 billion tons and is allegedly sufficient to cover the whole territory of India with a meter thick layer of rice. At ten grains of rice per square inch, the above amount requires rice fields covering twice the surface area of the Earth, oceans included.*
 
 Your challenge is to write an Objective-C program that calculates the number of grains of rice on a chessboard given that the number on each square doubles the quantity of the preceding square. It must return both the number of grains on each square as well as the total number of grains on the board.
+
+## Objectives
+
+1. Implement the methods: `grainsOnSquareNumber:` and `grainsOnBoard` in the GrainsOfRice.m file
+2. Your methods should pass all the unit tests in the provided project
+3. Be mindful of the edges cases: 0 squares = 0 grains of rice, any negative number should return -1 as an error code.
+
+## Tips
+
+1. For large number literals you may need to give the compiler a hint (L = long, LL = long long)
+
+        unsigned long long expected = 29144844073709551615ULL; // unsigned long long
+        
+2. You can print the max value of a number (for example):
+
+        NSLog(@"LONG_MAX:   %li",  LONG_MAX); // On a MacBook Pro 2018: LONG_MAX: 9223372036854775807
+        NSLog(@"ULONG_LONG_MAX:   %llu",  ULONG_LONG_MAX);
