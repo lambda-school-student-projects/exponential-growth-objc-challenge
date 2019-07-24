@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "GrainsOfRice.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,11 @@
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
+   
+    GrainsOfRice *grainsOfRice = [[GrainsOfRice alloc] init];
+    [grainsOfRice grainsOfRice];
+    
+    
 }
 
 

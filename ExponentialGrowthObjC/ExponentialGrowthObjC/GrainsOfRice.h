@@ -11,4 +11,7 @@
 
 @interface GrainsOfRice : NSObject
 
+
+- (void)grainsOfRice;
+
 @end
