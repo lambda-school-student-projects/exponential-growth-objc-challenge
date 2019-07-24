@@ -38,7 +38,7 @@
 		2245E1BB22E89D5000656B26 /* ExponentialGrowthObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExponentialGrowthObjCTests.m; sourceTree = "<group>"; };
 		2245E1BD22E89D5000656B26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2245E1C722E89FE300656B26 /* GrainsOfRice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrainsOfRice.m; sourceTree = "<group>"; };
-		22FEB6EA22E8A240006909BE /* GrainsOfRice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrainsOfRice.h; sourceTree = "<group>"; };
+		22FEB6EA22E8A240006909BE /* GrainsOfRice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GrainsOfRice.h; path = ExponentialGrowthObjC/GrainsOfRice.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
