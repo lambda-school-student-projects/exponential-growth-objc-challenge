@@ -31,5 +31,9 @@ Your challenge is to write an Objective-C program that calculates the number of 
 ## Stretch
 
 1. Use [`NSDecimalNumber`](https://developer.apple.com/documentation/foundation/nsdecimalnumber) for even bigger numbers than `unsigned long long`. It can support up to 38 digit long numbers without losing precision.
+
+        Max NSDecimalNumber: 3.402823669209387e+165
+        Max NSDecimalNumber: 3402823669209384634633746074317682114550000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+
 2. Imagine if there were 127 squares on a chess board. How many grains of rice would there be? 
 3. Can you calculate an exact number with `NSDecimalNumber` if there were 128 squares? Why? Why not?
