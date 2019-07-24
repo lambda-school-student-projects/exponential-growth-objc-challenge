@@ -20,26 +20,23 @@
 }
 
 
-- (long long)grainsOnSquareNumber:(NSNumber *)number {
+- (long long)grainsOnSquareNumber:(long long)number {
 	long long riceNumber = 1;
 
-	if ([number isEqual:number])
+	if (number == 1)
 		return 1;
 	else {
-		for(int i = 2; [number isLessThanOrEqualTo:number]; i++) {
+		for(int i = 2; number <= 1; i++) {
 			NSLog(@"%i", i);
 			riceNumber += riceNumber;
 		
 		}
 	}
-	
-	NSNumber *n = [[NSNumber alloc] initWithLongLong:riceNumber];
-	return n;
+	return riceNumber;
 }
 
 - (long long)grainsOnBoard{
-	NSNumber *grainsOnBoard = [[NSNumber alloc] initWithLongLong:64];
-	return 0;
+	return [self.grainsOnSquareNumber 64];
 }
 
 

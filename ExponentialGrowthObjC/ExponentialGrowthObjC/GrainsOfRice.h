@@ -13,7 +13,8 @@
 
 @interface GrainsOfRice : NSObject
 
-- (long long)grainsOnSquareNumber:(NSNumber)number;
+- (long long)grainsOnSquareNumber:(long long)number;
+
 - (long long)grainsOnBoard;
 
 @end
