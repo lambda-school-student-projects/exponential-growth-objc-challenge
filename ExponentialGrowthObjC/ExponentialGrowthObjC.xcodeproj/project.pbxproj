@@ -13,6 +13,7 @@
 		2245E1B122E89D4F00656B26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2245E1B022E89D4F00656B26 /* main.m */; };
 		2245E1BC22E89D5000656B26 /* ExponentialGrowthObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2245E1BB22E89D5000656B26 /* ExponentialGrowthObjCTests.m */; };
 		2245E1C822E89FE300656B26 /* GrainsOfRice.m in Sources */ = {isa = PBXBuildFile; fileRef = 2245E1C722E89FE300656B26 /* GrainsOfRice.m */; };
+		BDD89F2922E91AE80060870E /* GrainsOfRice.m in Sources */ = {isa = PBXBuildFile; fileRef = 2245E1C722E89FE300656B26 /* GrainsOfRice.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -212,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2245E1BC22E89D5000656B26 /* ExponentialGrowthObjCTests.m in Sources */,
+				BDD89F2922E91AE80060870E /* GrainsOfRice.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
