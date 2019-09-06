@@ -1,4 +1,3 @@
-# exponential-growth-obj-c
 
 ## Challenge
 
